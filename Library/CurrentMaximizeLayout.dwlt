@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 3566
+  controlID: 6992
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,8 +44,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 224.2
-    y: 19
+    x: 223.2
+    y: 73.6
     width: 678.8
     height: 438.2
   m_ViewDataDictionary: {fileID: 0}
@@ -82,7 +82,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
       y: 21
       width: 678.8
       height: 417.2
-    m_Scale: {x: 1.0829321, y: 1.0829321}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 339.4, y: 208.6}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -101,10 +101,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -313.4084
-      y: -192.6252
-      width: 626.8168
-      height: 385.2504
+      x: -339.4
+      y: -208.6
+      width: 678.8
+      height: 417.2
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 848.5, y: 547.75}
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 3567
+  controlID: 6993
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 3528
+  controlID: 6928
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 3495
+  controlID: 6929
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94f9ffff6cfbffff4c410000
+      m_ExpandedIDs: 34baffff1cc5ffff66dcffff32f9ffff6afbffffc4400000de40000042410000c6480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -287,8 +287,8 @@ MonoBehaviour:
     y: 0
     width: 680.8
     height: 459.2
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 9}
@@ -335,9 +335,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.4825387, y: 1.0872326, z: -1.4562349}
+    m_Target: {x: 3.0289464, y: 1.3251513, z: 4.398426}
     speed: 2
-    m_Value: {x: -4.4825387, y: 1.0872326, z: -1.4562349}
+    m_Value: {x: 3.0289464, y: 1.3251513, z: 4.398426}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -384,13 +384,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.02302119, y: -0.72348166, z: 0.02406705, w: -0.68961793}
+    m_Target: {x: 0.12301087, y: -0.74924254, z: 0.14552274, w: 0.6343828}
     speed: 2
-    m_Value: {x: -0.023019949, y: -0.7234427, z: 0.024065753, w: -0.6895808}
+    m_Value: {x: 0.123003826, y: -0.7491997, z: 0.14551441, w: 0.6343465}
   m_Size:
-    m_Target: 0.98827887
+    m_Target: 1.1785411
     speed: 2
-    m_Value: 0.98827887
+    m_Value: 1.1785411
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -441,7 +441,7 @@ MonoBehaviour:
     height: 320.6
   m_ViewDataDictionary: {fileID: 0}
   _data:
-    _json: '{"locked":false,"isActive":false,"referenceData":{"rootObjectInstanceID":17322,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":296.8,"yMin":73.6,"xMax":1198.0,"yMax":394.2},"saveChangesMessage":"Ludiq.GraphWindow
+    _json: '{"locked":false,"isActive":false,"referenceData":{"rootObjectInstanceID":16694,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":296.8,"yMin":73.6,"xMax":1198.0,"yMax":394.2},"saveChangesMessage":"Ludiq.GraphWindow
       has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":296.8,"yMin":73.6,"xMax":1198.0,"yMax":394.2},"m_ViewDataDictionary":null}'
     _objectReferences: []
 --- !u!114 &11
@@ -623,9 +623,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4400000
-    m_LastClickedID: 16564
-    m_ExpandedIDs: 00000000b440000000ca9a3b
+    m_SelectedIDs: 8c400000
+    m_LastClickedID: 16524
+    m_ExpandedIDs: 000000008c40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -653,7 +653,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b440000000ca9a3b
+    m_ExpandedIDs: 000000008c40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -678,8 +678,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4c410000
-    m_LastClickedInstanceID: 16716
+    m_SelectedInstanceIDs: 624a0000
+    m_LastClickedInstanceID: 19042
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000c55000000000000
     m_RenameOverlay:
@@ -791,7 +791,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 16716
+  m_LastInspectedObjectInstanceID: 19042
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
